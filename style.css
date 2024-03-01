@@ -1,0 +1,262 @@
+body{
+   overflow-x: hidden;
+}
+.navbar{
+   
+    background: #1e3050;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.nav-link{
+margin-right:10px ;
+}
+.fa-brands{
+    font-size:30px;
+    padding: 10px 30px;
+    color: white;
+}
+
+.enquirebtn{
+    padding: 10px;
+    background: rgb(197, 129, 97);
+border-radius: 20px;
+color: white;
+border: none;
+}
+.enquire{
+    background: rgb(197, 129, 97);
+    width: 1000px;
+    color: white;
+    border: none;
+}
+.banner{
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.336)),url(https://images.pexels.com/photos/5280935/pexels-photo-5280935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.banner_text{
+    padding-top: 50px;
+}
+
+.abt-btn,.cntct-btn{
+    background: #1e3050;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+
+@media only screen and (max-width:395px){
+    .banner{
+        height: auto;
+    }
+    }
+@media only screen and (max-width:1000px){
+    .enquire{
+        width: 100%;
+    }
+}
+.readbtn{
+    padding: 10px 30px;
+    background:rgb(197, 129, 97);
+border-radius: 40px;
+border: none;
+color: white;
+}
+.abt-icon{
+    font-size: 80px;
+
+  
+}
+.box{
+    display: flex;flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.banner-form input{
+    border-radius: 30px;
+ padding: 5px 30px;
+}
+.card{
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+.card-text{
+    color: grey;
+}
+.destinations{
+    padding: 100px;
+}
+.service{
+    margin: 150px;
+}
+.service-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ 
+}
+.s-img1{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.336)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA5gNfqMZbuokrF5X0_qj1lf5ijmduG1SacQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.s-img2{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.336)),url(https://i.insider.com/5a64dc7500d0ef1f008b45fa?width=750&format=jpeg&auto=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.s-img3{
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.336)),url(https://media.istockphoto.com/id/1028463194/photo/family-traveling-by-plane-and-reading-a-travel-guide.jpg?s=612x612&w=0&k=20&c=l7H6Qz3mViNlTJ9JjrxoLOpFrimqw0woGfra79D7N30=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:475px){
+    .service-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .s-img1,.s-img2,.s-img3{
+        margin: 5px;
+    }
+    .destinations{
+        padding: 100px 20px;
+    }
+}
+/* ================================================================== */
+.slideshow-container {
+    position: relative;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(7, 7, 7, 0.623)); */
+    background-color:white;
+    padding: 3%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    color: white;
+  }
+  .mySlides img{
+    width: 5%;
+    border-radius: 30px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #f0e6e6;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      /* background-color: transparent; */
+   
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+.dot:hover {
+    background-color: #717171;
+  }
+  .testimonial,.slideshow-container,.dot-container{
+ 
+    background: rgb(197, 129, 97);
+  }
+  /* ========================================================== */
+.FAQ{
+    border: 1px solid rgb(107, 103, 103);
+}
+.faqs{
+    margin-top: 20px;
+    padding: 100px;
+}
+/* ================================================================== */
+.footer{
+    background-image:url(https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/d/1/83-is-there-doctor-onboard-11-19-18.jpg__992x558_q85_crop-smart_subsampling-2_upscale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding-top: 50px;
+}
+.footer > .container{
+
+    background:linear-gradient(rgba(0, 0, 0, 0.651),rgba(7, 7, 7, 0.623));
+}
